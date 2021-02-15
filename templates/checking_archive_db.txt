@@ -1,0 +1,5 @@
+ssh {sh}.prod ; sftp {sh}.prod ; tar xvzf archive.tgz ; cd drupal/ ; ls *.sql ; cd ../
+cd /usr/docroot/site_archive ; cp archive.tgz ~/archive.tgz ; logout
+get archive.tgz
+exit
+rm -r *

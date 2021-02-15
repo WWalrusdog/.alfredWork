@@ -1,0 +1,5 @@
+#!/bin/bash
+touch temp.txt
+pbpaste > temp.txt
+./stackcopy.py
+rm temp.txt

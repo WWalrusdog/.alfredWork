@@ -1,0 +1,1 @@
+drush sql-dump > ~/{filename}.sql

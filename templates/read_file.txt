@@ -1,0 +1,3 @@
+_{filename} = open("{filename}.txt", "r")
+{filename} = _{filename}.read()
+_{filename}.close()

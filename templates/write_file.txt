@@ -1,0 +1,3 @@
+file = open("{filename}.txt", "w")
+file.write("{content}")
+file.close()

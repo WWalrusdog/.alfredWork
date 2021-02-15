@@ -1,0 +1,18 @@
+git clone {r0}
+cd {r8}
+git branch
+git checkout test
+git pull
+fin project start
+ssh {r9}.prod
+cd /usr/docroot/drupal
+drush sql-dump > ~/{r9}.sql
+logout
+sftp {name-of-site}.prod
+get {r9}.sql
+exit
+fin db import {r9}.sql
+cd sites/
+cd default/
+defset
+cd ../../

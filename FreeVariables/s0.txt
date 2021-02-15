@@ -1,0 +1,1 @@
+drawQuad ( ctrl–v ctrl–v ctrl–v ctrl–v pause color ); enter

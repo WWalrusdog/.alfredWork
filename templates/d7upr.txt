@@ -1,0 +1,23 @@
+git clone {r0}
+git branch
+git checkout test
+git pull
+fin project start
+ssh {r9}.prod
+cd /usr/docroot/drupal
+drush sql-dump > ~/{r8}.sql
+sftp {r9}.prod
+get {r8}.sql
+exit
+fin db import {r8}.sql
+cd sites/
+mv default.settings.php settings.php
+fin drush ups
+fin drush up {r7}
+git add .
+git commit -m "{r7} update"
+git push
+ssh {r9}.prod
+cd /usr/docroot/drupal
+git pull
+drush updb

@@ -1,0 +1,4 @@
+public static void FunctionName()
+ {
+ 	// body of function. In the header, public can be swapped for private, static means no output is returned, sub in data type for a different return. 
+ }

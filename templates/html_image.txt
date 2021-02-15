@@ -1,0 +1,2 @@
+<p><img src="{img_file}" height="300" width="300" align="left"></p>
+<br clear="all">

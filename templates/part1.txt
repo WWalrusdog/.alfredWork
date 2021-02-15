@@ -1,0 +1,7 @@
+git clone {r0}; cd {r8} ; git branch ; git checkout test ; git pull ; mkdir .docksal ; fin project start ; ssh {r9}.prod
+yes
+cd /usr/docroot/drupal ; drush sql-dump > ~/{r9}.sql ; logout
+sftp {r9}.prod
+get {r9}.sql
+exit
+fin db import {r9}.sql ;cd sites/ ; mkdir default ; cd default/ ; defset ; cd ../../ ; fin drush ups

@@ -1,0 +1,7 @@
+ssh {r1}.prod
+cd /usr/docroot/site_archive
+cp archive.tgz ~/archive.tgz
+sftp {r1}.prod
+tar xvzf archive.tgz
+cd drupal/
+cd newspace/

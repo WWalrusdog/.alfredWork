@@ -1,0 +1,7 @@
+for (int i = 0; i < Upperbound; i++)
+            {
+                // loop content
+            }for (int i = 0; i < Upperbound; i++)
+            {
+                // loop content
+            }

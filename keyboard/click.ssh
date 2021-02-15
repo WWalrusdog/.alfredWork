@@ -1,0 +1,3 @@
+#!/bin/bash
+cd /Users/scottmolloy/Desktop/.alfredWork/keyboard/
+python3 click.py

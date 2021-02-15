@@ -1,0 +1,1 @@
+ssh {sitename}.prod

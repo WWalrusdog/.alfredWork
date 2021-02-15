@@ -1,0 +1,10 @@
+Follow this format:
+
+copy {template}
+highlight {replacement rules}
+
+where replacement rules follow this format:
+old1::new1,,old2::new2
+
+
+hotkey. 

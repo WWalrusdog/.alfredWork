@@ -1,0 +1,4 @@
+#!/bin/bash
+./stackpaste.py
+cat out.txt | pbcopy
+rm out.txt

@@ -1,0 +1,1 @@
+Looks at clipboard text and identifies numbers. Any numbers are reduced by 1. The resultant string is pasted to the front most app. 
