@@ -5,33 +5,4 @@ import time
 def check():
     file = open("ripcord.txt", "r")
     file.close()
-with keyboard.pressed(Key.cmd):
-    with keyboard.pressed(Key.alt):
-        keyboard.press(Key.right)
-        keyboard.release(Key.right)
-time.sleep(.3)
-check()
-with keyboard.pressed(Key.cmd):
-    with keyboard.pressed(Key.alt):
-        keyboard.press(Key.right)
-        keyboard.release(Key.right)
-time.sleep(.3)
-check()
-with keyboard.pressed(Key.cmd):
-    with keyboard.pressed(Key.alt):
-        keyboard.press(Key.right)
-        keyboard.release(Key.right)
-time.sleep(.3)
-check()
-with keyboard.pressed(Key.cmd):
-    with keyboard.pressed(Key.alt):
-        keyboard.press(Key.right)
-        keyboard.release(Key.right)
-time.sleep(.3)
-check()
-with keyboard.pressed(Key.cmd):
-    with keyboard.pressed(Key.alt):
-        keyboard.press(Key.right)
-        keyboard.release(Key.right)
-time.sleep(.3)
-check()
+exec(open('/Users/scottmolloy/Desktop/.alfredWork/functions/newfresh.py').read())

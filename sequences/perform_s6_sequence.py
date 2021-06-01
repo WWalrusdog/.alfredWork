@@ -5,8 +5,9 @@ import time
 def check():
     file = open("ripcord.txt", "r")
     file.close()
-with keyboard.pressed(Key.alt):
-    keyboard.press("c")
-    keyboard.release("c")
+with keyboard.pressed(Key.cmd):
+    with keyboard.pressed(Key.alt):
+        keyboard.press(Key.left)
+        keyboard.release(Key.left)
 time.sleep(.3)
 check()
